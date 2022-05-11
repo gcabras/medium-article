@@ -1,0 +1,56 @@
+body{
+  background-color: white;
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+@media(min-width: 992px) {
+  .container {
+    width: 700px;
+    margin: 50px auto;
+  }
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.banner h1 {
+  font-size: 38px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+}
+
+.link-medium {
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.link-medium:hover{
+  background-image: linear-gradient(to top, rgb(252, 254, 253), rgb(248, 192, 224));
+  color: #636363;
+  transition: 0.5s;
+}
